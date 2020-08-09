@@ -1,10 +1,10 @@
-#def world(name):
-    #print("my world is my brother "+ name)
-#world("chandu")
-#def add(a, b):
-    #return a+b
-#c = add(3, 5)
-#print(c)
+def world(name):
+    print("my world is my brother "+ name)
+world("chandu")
+def add(a, b):
+    return a+b
+c = add(3, 5)
+print(c)
 
 def underline(text):
     "\n" + text + "\n"+"=" *len(text)+ "\n"
